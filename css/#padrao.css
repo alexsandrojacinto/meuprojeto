@@ -1,0 +1,23 @@
+.esquerda{
+    float: left;
+    }
+    
+    .direita{
+        float:right;
+        text-align: right;
+    }
+    .centro{
+        text-align: center;
+
+    }
+    .metade{
+        width: 50%;
+    }
+
+    .clearfix::after{
+        display: table;
+        float: none;
+        content: "";
+        clear: both;
+        overflow: auto;
+    }

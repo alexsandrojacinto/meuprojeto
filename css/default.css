@@ -1,0 +1,152 @@
+
+header {
+    background-image: url(../pixabay1.jpg);
+    background-color: maroon;
+    background-position: center;
+    background-size: center;
+
+    text-align: center;
+    padding: 60px;
+}
+
+/*navegação*/
+
+/*barra onde esta nomes dos produtos*/
+nav{
+background-color: rgb(3, 28, 248);
+height: 65px;
+}
+
+nav ul{
+    display: block;
+}
+
+nav ul li {
+    display: inline-block;
+    color: rgb(5, 4, 5);
+     line-height: 45px;
+}
+
+nav ul li a{
+    color: rgb(248, 10, 10);
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav ul li a:hover{
+color: rgb(247, 10, 10);
+    
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 20px;
+    padding-right: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #ffffff;
+}
+
+/*corpo*/
+
+body{
+    background-color: rgb(255, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    background-color: white;
+    height: 100%;
+    min-height: 250px;
+
+}
+
+#barra_de_pesquisa{
+    background-image: url(../areapesquisa.jpeg);
+    
+
+}
+
+#produtos{
+    background-color: turquoise;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100px;
+}
+#produtos div{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#produtos div img{
+    width:  100%;
+    padding: 50px;
+}
+
+#propaganda{
+    background-color: yellow;
+
+}
+
+.centro{
+    text-align: center;
+}
+
+#produtos div{
+    float: left;
+    width: 20%;
+    text-align: center;
+
+
+
+}
+/*rodape*/
+
+.footer{
+    height: 150px;
+    background-color: rgb(247, 6, 6);
+
+
+}
+
+.footer h2 {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: left;
+    color: black;
+
+}
+
+.footer p{
+    font-family: serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    text-transform: unset;
+    color: black;
+    margin-top: 20px;
+
+
+}
+
+.logos-redes {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
